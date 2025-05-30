@@ -1,0 +1,3 @@
+"""
+Database functionality for HireAI
+""" 

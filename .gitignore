@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Security and Secrets
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.crt
+config.ini
+secrets.json
+credentials.json
+*_credentials.json
+*_config.json
+*_keys.json
+*_secrets.json
+supabase.json
+azure_credentials.json
+openai_credentials.json
+
+# Logs and Databases
+*.log
+*.db
+*.sqlite3
+logs/
+*.log.*
+
+# Project specific
+data/sample_resumes/*
+!data/sample_resumes/.gitkeep
+
+# Keep necessary files
+!requirements.txt
+!setup.py
+!README.md
+!LICENSE
+!data/sample_resumes/.gitkeep 
